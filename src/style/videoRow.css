@@ -1,0 +1,19 @@
+.videoRow{
+    display: flex;
+    margin: 20px;
+    max-width: 80%;
+}
+.videoRow_text{
+    flex-direction: column;    
+    margin-left: 20px;
+}
+.videoRow_text >p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: grey;
+}
+.videoRow img{
+    object-fit: contain;
+    width: 340px;
+    height: 168px;
+}

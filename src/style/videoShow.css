@@ -1,0 +1,11 @@
+.videoShow{
+    flex: 0.8;
+}
+
+.videoPlayer > iframe {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 800px;                                                   
+    height: 400px;
+    
+}
