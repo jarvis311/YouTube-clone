@@ -30,7 +30,7 @@ const Explore = () => {
       setVideoListInExplore(response.data.items);
     }
     getdataExplore();
-  }, [Explore])
+  }, [])
 
   const renderExploreVideo = videoListInExplore.map(video => (
     <VideoRow

@@ -2,7 +2,6 @@ import React from 'react'
 import '../style/searchVideo.css'
 import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined';
 import ChannelRow from './ChannelRow';
-import VideoRow from './VideoRow';
 const SearchVideo = () => {
   return (
     <div className='searchVideo'>
@@ -21,100 +20,6 @@ const SearchVideo = () => {
 
       />
       <hr />
-
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-      <VideoRow
-        views="3.5M"
-        subscriber="6.3M"
-        description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."
-        timestamp="2"
-        channel="England & Wales Cricket Board"
-        title="Mitchell Puts NZ On Top | Highlights | England v New Zealand - Day 1 | 2nd LV= Insurance Test 2022"
-        image="https://i.ytimg.com/vi/eKZU-uMHMCQ/maxresdefault.jpg"
-      />
-      
-       
-
-
     </div>
   )
 }

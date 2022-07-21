@@ -5,7 +5,7 @@ import VideoCard from './VideoCard'
 import  {Link} from 'react-router-dom'
 
 
-const RecommendedVideo = ({ videos }) => {
+const RecommendedVideo = () => {
   const [videoList, setvideoList] = useState([])
 
   const term = 'england test highlights'
@@ -21,7 +21,7 @@ const RecommendedVideo = ({ videos }) => {
       setvideoList(response.data.items);
     }
     getdata();
-  }, [RecommendedVideo])
+  }, [])
 
 
   const renderVidioList = videoList.map(video => (
