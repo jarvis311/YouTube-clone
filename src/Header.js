@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-// import MenuIcon from '@material-ui/icons/Menu';
 
-import VideoCallIcon from '@material-ui/icons/VideoCall';
-import AppsIcon from '@material-ui/icons/Apps';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import SearchIcon from '@material-ui/icons/Search';
+import VideoCallIcon from '@mui/icons-material/VideoCall';
+import AppsIcon from '@mui/icons-material/Apps';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import SearchIcon from '@mui/icons-material/Search';
 import './style/header.css'
 import Youtube from './Apis/Youtube';
 import ShowSearchVideo from './components/ShowSearchVideo';

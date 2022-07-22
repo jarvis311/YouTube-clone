@@ -1,12 +1,12 @@
 import React from 'react'
 import '../style/searchVideo.css'
-import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined';
+import TuneIcon from '@mui/icons-material/Tune';
 import ChannelRow from './ChannelRow';
 const SearchVideo = () => {
   return (
     <div className='searchVideo'>
       <div className="searchVideo_filter">
-        <TuneOutlinedIcon />
+        <TuneIcon />
         <h2>FILTER</h2>
       </div>
       <hr />

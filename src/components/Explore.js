@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import '../style/explore.css'
 import ExploreCatagory from './ExploreCatagory'
-import WhatshotIcon from '@material-ui/icons/Whatshot';
-import MusicNoteIcon from '@material-ui/icons/MusicNote';
-import LocalMoviesIcon from '@material-ui/icons/LocalMovies';
-import LiveTvIcon from '@material-ui/icons/LiveTv';
-import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
-import DescriptionIcon from '@material-ui/icons/Description';
-import SportsCricketIcon from '@material-ui/icons/SportsCricket';
-import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import LocalMoviesIcon from '@mui/icons-material/LocalMovies';;
+import LiveTvIcon from '@mui/icons-material/LiveTv';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import DescriptionIcon from '@mui/icons-material/Description';
+import SportsCricketIcon from '@mui/icons-material/SportsCricket';
+import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import VideoRow from './VideoRow';
 import Youtube from '../Apis/Youtube';
 
@@ -47,14 +47,14 @@ const Explore = () => {
   return (
     <div className='explore'>
         <div className="catagory">
-            <ExploreCatagory Icon={WhatshotIcon} title="Trending" />
+            <ExploreCatagory Icon={WhatsAppIcon} title="Trending" />
             <ExploreCatagory Icon={MusicNoteIcon} title="Music" />
             <ExploreCatagory Icon={LocalMoviesIcon} title="Movies" />
             <ExploreCatagory Icon={LiveTvIcon} title="Live" />
             <ExploreCatagory Icon={SportsEsportsIcon} title="Gaming" />
             <ExploreCatagory Icon={DescriptionIcon} title="News" />
             <ExploreCatagory Icon={SportsCricketIcon} title="Sport" />
-            <ExploreCatagory Icon={EmojiObjectsIcon} title="Learning" />
+            <ExploreCatagory Icon={EmojiEmotionsIcon} title="Learning" />
         </div>
         <div className='exploreVideioList'>
             {renderExploreVideo}
