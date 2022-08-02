@@ -24,7 +24,7 @@
     
 }
 .ExploreCatagory > .MuiSvgIcon-root {
-    font-size: 40px;
+    font-size: 4.6rem;
     margin: 10px;
     color: #FD8A86;
 }
@@ -33,4 +33,19 @@
     margin: 10px;
     font-size: 1.1rem;
     font-weight: 500;
+}
+@media (max-width:600px) {
+    .ExploreCatagory > .MuiSvgIcon-root {
+        font-size: 2rem;
+        margin: 10px;
+        color: #FD8A86;
+    }
+    .ExploreCatagory{
+        height: 8vh;
+        margin: 19px 0 5px 11px;
+    }
+    .ExploreCatagory > p{
+      display: none;
+    }
+    
 }

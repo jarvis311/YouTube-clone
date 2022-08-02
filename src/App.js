@@ -5,13 +5,13 @@ import RecommendedVideo from './components/RecommendedVideo';
 import Sidebar from './components/Sidebar';
 import Header from './Header';
 import './App.css'
-// import SearchVideo from './components/SearchVideo';
 import Explore from './components/Explore';
 import Subscription from './components/Subscription';
 import Shorts from './components/Shorts';
-// import UseVideo from './components/Hooks/UseVideo';
 import ShowVideo from './components/ShowVideo';
 import ShowSearchVideo from './components/ShowSearchVideo';
+
+
 function App() {
 
   

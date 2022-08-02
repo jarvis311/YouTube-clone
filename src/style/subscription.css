@@ -1,0 +1,11 @@
+.subsTitle{
+ margin-bottom: 1rem;       
+ margin-left: 5rem;
+}
+
+@media (max-width:600px) {
+    .subscription{
+        margin-left: 3rem;
+    }
+    
+}

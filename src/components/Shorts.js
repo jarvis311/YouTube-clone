@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Youtube from '../Apis/Youtube'
 import VideoRow from './VideoRow'
+import '../style/short.css'
 import { Link } from 'react-router-dom'
 const Shorts = () => {
 
@@ -22,11 +23,9 @@ const Shorts = () => {
 
 
   const renderShortVideo = shortVideo.map(video => (
-    <div key={video.id.videoId}>
-
-    <Link style={{textDecoration:'none', color:'black'}} to={`/show/${video.id.videoId}`}>
+    <div className='shortContainer' key={video.id.videoId}>
+    <Link className='short' style={{textDecoration:'none', color:'black'}} to={`/show/${video.id.videoId}`}>
       <VideoRow
-         
          views="3.5M"
          subscriber="6.3M"
          description="Watch match highlights from Day 1 the 1st LV= Insurance Test between England and New Zealand at Trent Bridge."

@@ -9,11 +9,27 @@
 }
 .videoRow_text >p{
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 1rem;
     color: grey;
 }
 .videoRow img{
     object-fit: contain;
     width: 340px;
     height: 168px;
+}
+@media screen and (max-width:600px) {
+    .videoRow{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .videoRow img{
+       width: 100%;
+    }
+    .videoRow_text > h3 {
+        font-size: 0.8rem;
+    }
+    .videoRow_text > p {
+        font-size: 0.5rem;
+    }
+
 }

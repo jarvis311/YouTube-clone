@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Youtube from '../Apis/Youtube'
 import { Link } from 'react-router-dom'
 import VideoCard from './VideoCard'
-import '../style/recommendedVideo.css'
+import '../style/subscription.css'
 
 const Subscription = () => {
 
@@ -24,7 +24,7 @@ const Subscription = () => {
   }, [])
 
   const renderSubscriptionVideo = subscription.map(video => (
-    <div className='recommendedVideo' key={video.id.videoId}>
+    <div className='subscription' key={video.id.videoId}>
       <Link style={{ textDecoration: 'none', color: 'black' }} to={`/show/${video.id.videoId}`}>
         <VideoCard
           key={video.id.videoId}
@@ -40,14 +40,14 @@ const Subscription = () => {
 
 
   return (
+    <div style={{ flex: 0.8 }}>
 
-
-    <>
-      <h2>Subscribtion</h2>
+      <h2 className='subsTitle'>Subscribtion</h2>
       <div className="recommendedVideo_video">
         {renderSubscriptionVideo}
       </div>
-    </>
+
+    </div>
   )
 }
 
